@@ -271,3 +271,8 @@ $(document).ready(function () {
   }
 })
 
+$(function () {
+  $('nav#menu').mmenu({
+    extensions: ["position-right"]
+  });
+});

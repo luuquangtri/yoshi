@@ -256,6 +256,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+.page-content .page-content-row .img-right {
+  display: flex;
+  justify-content: center;
+}
 .page-content .page-content-row .img-right img {
   width: 420px;
 }
