@@ -465,3 +465,22 @@ a.view-intro:hover i {
 .breadcrumb li a.active {
   color: black;
 }
+/* cong ty thanh vien */
+.page-group {
+  margin-top: 90px;
+}
+.page-group img {
+  width: 100%;
+}
+.page-group .page-content {
+  padding: 15px 0;
+}
+.page-group .page-content a:not(span) {
+  font-size: 18px;
+}
+.page-group .page-content h4 {
+  font-weight: bold;
+}
+.page-group .page-content span {
+  font-weight: normal;
+}
