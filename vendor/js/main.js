@@ -295,7 +295,7 @@ $('.owl-carousel').owlCarousel({
   responsiveClass: true,
   responsive: {
     0: {
-      items: 1,
+      items: 2,
       nav: false,
       dot: false
     },
