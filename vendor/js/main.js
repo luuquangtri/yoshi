@@ -315,3 +315,8 @@ $('.owl-carousel').owlCarousel({
 $(document).ready(function () {
   $('.image-link').magnificPopup({ type: 'image' });
 });
+$(document).ready(function () {
+  setTimeout(function () {
+    $('body').addClass('loaded');
+  }, 0);
+});
