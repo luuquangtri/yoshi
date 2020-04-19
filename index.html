@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="yoshigroup">
+    <meta name="keywords" content="yoshigroup">
     <title>yoshigroup</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
@@ -140,7 +142,7 @@
             </section>
         </main>
         <!-- end banner -->
-        <section>
+        <section id="page-intro">
             <div class="container">
                 <div class="page-intro">
                     <h1>SƠ LƯỢC VỀ YOSHI-CAPITAL</h1>
@@ -157,10 +159,10 @@
                     </div>
                     <div class="page-img">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6 img-content">
                                 <img src="https://yoshigroup.jp/wp-content/uploads/2020/01/xx1.png" alt="">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6 img-content">
                                 <img src="https://yoshigroup.jp/wp-content/uploads/2020/01/xx1.png" alt="">
                             </div>
                         </div>
@@ -170,7 +172,7 @@
         </section>
 
 
-        <section class="page-content">
+        <section class="page-content" id="page-content">
             <div class="container">
                 <div class="row page-content-row">
                     <div class="col-md-6 col-sm-12">
@@ -200,14 +202,14 @@
         </section>
 
 
-        <section>
+        <section id="page-news">
             <div class="bg-newfeed">
                 <h1>DỰ ÁN NỔI BẬT</h1>
             </div>
             <div class="page-new">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-4 col-xs-4 fix-card">
                             <div class="inner">
                                 <a href="detailnew.html">
                                     <div class="page-new-img">
@@ -230,7 +232,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-4 col-xs-4 fix-card">
                             <div class="inner">
                                 <a href="detailnew.html">
                                     <div class="page-new-img">
@@ -252,7 +254,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-4 col-xs-4 fix-card">
                             <div class="inner">
                                 <a href="detailnew.html">
                                     <div class="page-new-img">
@@ -279,7 +281,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="page-why">
             <div class="page-why">
                 <div class="container">
                     <div class="page-title">
@@ -299,7 +301,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="page-galary">
             <div class="page-galary">
                 <div class="container">
                     <div class="page-title">
@@ -346,7 +348,7 @@
             <div class="bg-footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-3">
                             <div class="inner">
                                 <div class="ft-title">
                                     <span>Thông tin công ty</span>
@@ -365,34 +367,34 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-3">
                             <div class="inner">
                                 <div class="ft-title">
                                     <span>Các chi nhánh</span>
                                 </div>
                                 <div class="menu-ft">
                                     <ul>
-                                        <li><a href="">Hồ sơ công ty</a></li>
-                                        <li><a href="">Hồ sơ công ty</a></li>
-                                        <li><a href="">Hồ sơ công ty</a></li>
+                                        <li><a href="">Quận 7</a></li>
+                                        <li><a href="">Quận 3</a></li>
+                                        <li><a href="">Quận 9</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-3" >
                             <div class="inner">
                                 <div class="ft-title">
                                     <span>Kết nối với chúng tôi</span>
                                 </div>
                                 <div class="menu-ft">
-                                    <ul>
-                                        <li><a href="">Hồ sơ công ty</a></li>
+                                    <ul style="list-style:none">
+                                        <li><a href=""><i class="fab fa-facebook-square"></i> Facebook</a></li>
                                         <li><a href="">Hồ sơ công ty</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-3">
                             <div class="inner inner-qr-code">
                                 <div class="ft-title">
                                     <span>QR Code</span>
@@ -412,8 +414,25 @@
 
             </div>
         </footer>
+        <!-- phone -->
+        <div class="phonering-alo-phone phonering-alo-green phonering-alo-show" id="phonering-alo-phoneIcon">
+            <!-- <div class="phone-number">
+                0335865921
+            </div> -->
+            <div class="phonering-alo-ph-circle">
+            </div>
+            <div class="phonering-alo-ph-circle-fill">
+            </div>
+            <a href="tel:+0937084675" class="pps-btn-img" title="Liên hệ">
+                <div class="phonering-alo-ph-img-circle">
+                </div>
+            </a>
+        </div>
+        <!-- back to top -->
+        <button class="btn show" id="back-to-top" style="display: block;">
+            <i class="fa fa-angle-up"></i>
+        </button>
     </div>
-
 
     <!-- import lib -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

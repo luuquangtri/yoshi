@@ -1,6 +1,67 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1200px) {
+  .header .navigate ul li a {
+    font-size: 1rem;
+  }
+  .slideshow {
+    height: 50vh;
+  }
+  .header {
+    position: unset;
+    width: 100%;
+    box-shadow: none;
+  }
+  .page-gt img,
+  .page-group,
+  .all-newfeed,
+  .page-detail-newfeed,
+  .page-recruitment,
+  .map {
+    margin-top: 0;
+  }
+  h1 {
+    font-size: 23px;
+  }
+  .page-new .inner .page-new-content .desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 3;
+    height: 90px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  .bg-footer .inner .ft-title span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .breadcrumb li a {
+    font-size: 1.2em;
+  }
+  .slideshow {
+    margin-top: 0;
+  }
+  .page-new .inner .page-new-img img {
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .btn-menu {
     display: block;
+    top: 50px;
+  }
+  .page-content p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 10;
+    height: 250px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  .page-new .inner .page-new-content .type-title {
+    font-size: 18px;
+    font-weight: 600;
   }
   #main-header .header .navigate {
     display: none;
@@ -28,7 +89,7 @@
     padding: 13px 0;
   }
   .page-content h1 {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 800;
     text-align: center;
   }
@@ -37,12 +98,72 @@
     position: static;
     height: auto;
     justify-content: space-between;
+  }
+  .bg-footer {
+    text-align: center;
+  }
+  .bg-footer .inner .menu-ft ul {
+    list-style: none;
+  }
+  .page-content .page-content-row .img-right {
+    margin-top: 20px;
+  }
+  .bg-newfeed {
+    background-attachment: local;
+  }
+  .page-intro .page-img .img-content img {
+    margin: 10px 0;
+  }
+  .bg-footer .inner .ft-title span {
+    font-size: 18px;
+  }
+  .bg-footer .inner .menu-ft ul li a {
+    font-size: 15px;
+  }
+  .page-intro h1 {
+    font-size: 24px;
+  }
+  .page-title h1 {
+    font-size: 23px;
+  }
+  .page-new .inner .page-new-content .desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+    -webkit-line-clamp: 3;
+    height: 75px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  .bg-newfeed h1 {
+    font-size: 24px;
+  }
+  .page-gt img,
+  .page-group,
+  .all-newfeed,
+  .page-detail-newfeed,
+  .page-recruitment,
+  .map {
+    margin-top: 0;
+  }
+  .bg-footer .inner img.qr-code {
+    width: 100px;
+  }
+  .page-title h3 {
+    font-size: 18px;
+  }
+  .breadcrumb li a {
+    font-size: 1em;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .btn-menu {
+  /* .btn-menu {
     display: block;
+    top: 50px;
+  }
+  .breadcrumb li a{
+    font-size: 14px;
   }
   #main-header .header .navigate {
     display: none;
@@ -80,18 +201,55 @@
     height: auto;
     justify-content: space-between;
   }
-  .page-intro h1,.bg-newfeed h1,.page-title h1{
+  .page-intro h1,
+  .bg-newfeed h1,
+  .page-title h1 {
     font-size: 18px;
     font-weight: 800;
   }
-  .page-gt img,.page-group,.all-newfeed,.page-detail-newfeed,.page-recruitment,.map{
+  .page-gt img,
+  .page-group,
+  .all-newfeed,
+  .page-detail-newfeed,
+  .page-recruitment,
+  .map {
     margin-top: 0;
   }
-  .map .form-contact form{
+  .map .form-contact form {
     width: 100%;
   }
-  .map-fix{
+  .map-fix {
     height: 300px;
   }
-  
+  .bg-footer {
+    text-align: center;
+  }
+  .bg-footer .inner .menu-ft ul {
+    list-style: none;
+  }
+  .page-content .page-content-row .img-right {
+    margin-top: 20px;
+  }
+  .bg-newfeed {
+    background-attachment: local;
+  }
+  .page-intro .page-img .img-content img {
+    margin: 10px 0;
+  }
+  .bg-footer .inner .ft-title span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .bg-footer .inner .menu-ft ul li a {
+    font-size: 15px;
+  }
+  .bg-footer .inner img.qr-code{
+    width: 100px;
+  }
+  .page-title h3{
+    font-size: 18px;
+  } */
+  .page-new .fix-card {
+    width: 100%;
+  }
 }
