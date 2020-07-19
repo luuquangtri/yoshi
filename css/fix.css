@@ -1,0 +1,34 @@
+.business {
+    margin-bottom: 30px;
+}
+.business-education,
+.business-medical {
+    margin-top: 30px;
+}
+.business-heading {
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+.business-primary {
+    color: #0c71c3;
+    font-weight: bold;
+}
+.business-primary:last-child {
+    margin-top: 25px;
+}
+.business-primary > a.phone-contact {
+    color: white;
+    background-color: #ff0505;
+    padding: 4px;
+}
+.business-content {
+    line-height: 1.7;
+    font-size: 1.6rem;
+    justify-content: left;
+}
+.business-content > span {
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    background-color: #ff0505;
+}
